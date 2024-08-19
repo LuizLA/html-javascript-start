@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form>
+        <input type="text" name="nome" placeholder="nome completo">
+        <input type="text" name="tefone" placeholder="telefone">
+        <input type="text" name="email" placeholder="email">
+        <input type="text" name="senha" placeholder="***************">
+        <div class="btn">
+            <button class="btn-cadastrar">Cadastrar</button>
+            <a href="./login.html" class="btn-cancelar">Cancelar</a>
+        </div>
+    </form>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            background-color: blue;
+        }
+        form{
+            gap: 5px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: blueviolet;
+
+            width: 40%;
+            height: 60%;
+        }
+        input{
+            padding: 7px;
+            border: none;
+            outline: none;
+            border-radius: 7px;
+        }
+        button{
+            padding: 7px;
+            border: none;
+            outline: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .btn-cadastrar{
+            color: #fff;
+            background-color: cornflowerblue;
+        }
+        .btn-cancelar{
+            border-radius: 5px;
+            text-align: center;
+            padding: 7px;
+            color: #fff;
+            background-color: red;
+        }
+    </style>
+</body>
+</html>
